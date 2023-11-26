@@ -141,7 +141,7 @@ DailyReward = {
 			items = { 28540, 28541, 28542, 28543, 28544, 28545, 44064 },
 			freeAccount = 1,
 			premiumAccount = 2,
-			itemCharges = 2500,
+			itemCharges = 50,
 		},
 		[7] = {
 			type = DAILY_REWARD_TYPE_XP_BOOST,
