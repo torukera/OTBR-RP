@@ -5340,7 +5340,8 @@ local weapons = {
 	{
 		-- small stone
 		itemid = 1781,
-		type = WEAPON_MISSILE
+		type = WEAPON_MISSILE,
+		breakchance = 3,
 	},
 }
 
