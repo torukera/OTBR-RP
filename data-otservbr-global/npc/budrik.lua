@@ -88,6 +88,7 @@ local function creatureSayCallback(npc, creature, type, message)
 				player:setStorageValue(Storage.Quest.U8_5.KillingInTheNameOf.BossKillCount.FoxCount, 0)
 			else
 				npcHandler:say("Come back when you have slain {5000 minotaurs!}", npc, creature)
+				player:setStorageValue(Storage.Quest.U8_5.KillingInTheNameOf.MonsterKillCount.MinotaurCount,5000)
 			end
 		elseif player:getStorageValue(Storage.KillingInTheNameOf.BudrikMinos) == 2 and player:getStorageValue(Storage.Quest.U8_5.KillingInTheNameOf.BossKillCount.FoxCount) == 1 then
 			npcHandler:say("It was very decent of you to help me, and I am thankful, really I am, but now I have to get back to my duties as a foreman.", npc, creature)
