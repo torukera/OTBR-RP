@@ -3717,7 +3717,6 @@ local weapons = {
 		type = WEAPON_AMMO,
 		level = 20,
 		unproperly = true,
-		action = "removecount",
 	},
 	{
 		-- flaming arrow
@@ -3725,7 +3724,6 @@ local weapons = {
 		type = WEAPON_AMMO,
 		level = 20,
 		unproperly = true,
-		action = "removecount",
 	},
 	{
 		-- shiver arrow
@@ -3733,7 +3731,6 @@ local weapons = {
 		type = WEAPON_AMMO,
 		level = 20,
 		unproperly = true,
-		action = "removecount",
 	},
 	{
 		-- flash arrow
@@ -3741,7 +3738,6 @@ local weapons = {
 		type = WEAPON_AMMO,
 		level = 20,
 		unproperly = true,
-		action = "removecount",
 	},
 	{
 		-- icy war hammer

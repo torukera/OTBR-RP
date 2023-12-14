@@ -312,7 +312,9 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 	end
 
 	player:updateSupplyTracker(item)
-	item:remove(1)
+	if item:getId() ~= 268 then
+		item:remove(1)
+	end
 	return true
 end
 
